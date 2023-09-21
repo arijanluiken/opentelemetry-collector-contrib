@@ -1,0 +1,9 @@
+type: x509
+
+status:
+  class: processor
+  stability:
+    alpha: [logs]
+  distributions: [contrib]
+  codeowners:
+    active: [arijanluiken]

@@ -1,0 +1,6 @@
+x509:
+  keyfile: "key.pem"
+  encrypt: 
+  - attribute_to_encrypt1
+  sign:
+  - attribute_to_sign1
