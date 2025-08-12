@@ -1,0 +1,21 @@
+type: timeseriesanomaly
+
+status:
+  class: processor
+  stability:
+    alpha: [metrics]
+  distributions: [contrib, k8s]
+  warnings: [Statefulness]
+  codeowners:
+    active: [arijanluiken]
+
+attributes:
+  anomaly.score:
+    description: Z-score based anomaly score
+    type: double
+  anomaly.flag:
+    description: Boolean classification, true when score exceeds threshold
+    type: bool
+
+tests:
+  config:
